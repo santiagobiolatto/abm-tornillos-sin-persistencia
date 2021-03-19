@@ -1,0 +1,42 @@
+<%- include('partials/header.ejs') %> 
+<div class="container">
+  <a href="/agregar" class="btn btn-lg btn-primary m-3">Agregar Tornillo</a>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Diametro</th>
+                    <th scope="col">Longitud</th>
+                    <th scope="col">Rosca</th>
+                    <th scope="col">Cabeza</th>
+                    <th scope="col">Clase Cabeza</th>
+                    <th scope="col">Material</th>
+                    <th scope="col">Operaciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% for (let i = 0; i < tornillo.length; i++) { %>
+                      <tr>
+                        <td> <%= i+1 %> </td>
+                        <td> <%= tornillo[i].nombre %> </td>
+                        <td> <%= tornillo[i].diametro %> mm</td>
+                        <td> <%= tornillo[i].longitud %> mm</td>
+                        <td> <%= tornillo[i].rosca %> </td>
+                        <td> <%= tornillo[i].cabeza %> </td>
+                        <td> <%= tornillo[i].claseCabeza %> </td>
+                        <td> <%= tornillo[i].material %> </td>
+                        <td>
+                            <a href="/editar/<%= tornillo[i].id %>" class="btn btn-dark">Editar</a>
+                            <a href="/delete/<%= tornillo[i].id %>" class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                <% } %>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+<%- include('partials/footer.ejs') %>

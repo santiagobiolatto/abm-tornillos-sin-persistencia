@@ -1,0 +1,61 @@
+[
+    {
+        "id":1,
+        "nombre":"Tornillo Allen Cabeza Cilíndrica 12.9",
+        "diametro":6,
+        "longitud":45,
+        "rosca":"Métrica",
+        "cabeza":"Cilindrica",
+        "claseCabeza":"Allen",
+        "material":"Acero aleado de Alta Resistencia"
+    },
+    {   
+        "id":2,
+        "nombre":"Autoperforante Cabeza Fijadora Mecha",
+        "diametro":10,
+        "longitud":65,
+        "rosca":"En diente de sierra",
+        "cabeza":"Fijadora ",
+        "claseCabeza":"Phillips",
+        "material":"Acero inoxidable"
+    },
+    {
+        "id":3,
+        "nombre":"Tornillos Cabeza Redonda",
+        "diametro":8,
+        "longitud":45,
+        "rosca":"Métrica",
+        "cabeza":"Redonda",
+        "claseCabeza":"Fresada","material":"Acero SAE 1010"
+    },
+    {
+        "id":4,
+        "nombre":"Tornillos Cabeza Fresada",
+        "diametro":12,
+        "longitud":65,
+        "rosca":"Métrica",
+        "cabeza":"Plana",
+        "claseCabeza":"Phillips",
+        "material":"Acero SAE 1010"
+    },
+    {
+        "id":5,
+        "nombre":"Tornillo Drywall Para Madera",
+        "diametro":8,
+        "longitud":75,
+        "rosca":"En diente de sierra",
+        "cabeza":"Plana",
+        "claseCabeza":"Phillips",
+        "material":"Acero al carbono SAE 1010/1020"
+    },
+    {
+        "id":6,
+        "nombre":"Tornillos Cabeza Hexagonal Tipo Nery",
+        "diametro":14,
+        "longitud":55,
+        "rosca":"Whitworth",
+        "cabeza":"Hexagonal",
+        "claseCabeza":"Allen",
+        "material":"Acero SAE 1010"
+    }
+]

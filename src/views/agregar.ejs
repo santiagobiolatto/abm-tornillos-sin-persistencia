@@ -1,0 +1,35 @@
+<%- include('partials/header.ejs') %> 
+    <div class="container card mt-4 p-3" style="max-width: 650px;">
+        <form action="/agregar" method="POST">
+            <div class="mb-1">
+              <label for="nameTornillo" class="form-label">Nombre</label>
+              <input type="text" name="nombre" class="form-control" id="nameTornillo">
+            </div>
+            <div class="mb-1">
+              <label for="diametroTornillo" class="form-label">Diametro</label>
+              <input type="number" name="diametro" class="form-control" id="diametroTornillo">
+            </div>
+            <div class="mb-1">
+                <label for="longitudTornillo" class="form-label">Longitud</label>
+                <input type="number" name="longitud" class="form-control" id="longitudTornillo">
+              </div>
+              <div class="mb-1">
+                <label for="roscaTornillo" class="form-label">Rosca</label>
+                <input type="text" name="rosca" class="form-control" id="roscaTornillo">
+              </div>
+              <div class="mb-1">
+                <label for="cabezaTornillo" class="form-label">Cabeza</label>
+                <input type="text" name="cabeza" class="form-control" id="cabezaTornillo">
+              </div>
+              <div class="mb-1">
+                <label for="claseCabezaTornillo" class="form-label">Clase Cabeza</label>
+                <input type="text" name="claseCabeza" class="form-control" id="claseCabezaTornillo">
+              </div>
+              <div class="mb-1">
+                <label for="materialTornillo" class="form-label">Material</label>
+                <input type="text" name="material" class="form-control" id="materialTornillo">
+              </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
+<%- include('partials/footer.ejs') %> 
